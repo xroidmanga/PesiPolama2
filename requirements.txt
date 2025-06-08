@@ -1,0 +1,11 @@
+pyrogram 
+tgcrypto
+requests 
+flask
+aiohttp
+python-dotenv
+aiofiles
+# aria2 😂 jab video dl karenge unlock karenge
+pillow
+# ffmpeg 😅 jab video dl karenge unlock karenge
+gunicorn
