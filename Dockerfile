@@ -24,14 +24,10 @@ COPY . .
 EXPOSE 3000
 
 # Run the application 
-# CMD ["python", "bot.py"]
 
-# CMD ["python", "blacklist.py"]
+# 😮‍💨 Le ab video upload hoga 
+CMD ["python", "Desi_video.py"]
 
-# CMD ["python", "terabox.py"]
-
-# CMD ["python", "terabox_new.py"]
-
-CMD ["python", "desi.py"]
+# CMD ["python", "desi.py"]
 
 
