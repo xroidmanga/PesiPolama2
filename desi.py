@@ -63,7 +63,7 @@ DUMMY_DATA = [
 API_LIST = [
     "https://you-pom-lover.vercel.app/xnxx/10/school",
     "https://you-pom-lover.vercel.app/xnxx/10/desi",
-    "https://you-pom-lover.vercel.app/xnxx/college",
+    "https://you-pom-lover.vercel.app/xnxx/10/college",
     "https://you-pom-lover.vercel.app/xnxx/10/bhabhi"
 ]
 
