@@ -175,7 +175,7 @@ async def auto_post():
                             f"🎀 <b>{video_name}</b>\n"
                             f"✦▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬✦\n"
                             f"🐉 {item.get('description', 'No description available.')}\n\n"
-                            f"<b>⚡️ Stay tuned for more videos on our channel!</b>"
+                            f"<b>⚡️ 𝘚𝘵𝘢𝘺 𝘵𝘶𝘯𝘦𝘥 𝘧𝘰𝘳 𝘮𝘰𝘳𝘦 𝘷𝘪𝘥𝘦𝘰𝘴 𝘰𝘯 𝘰𝘶𝘳 𝘤𝘩𝘢𝘯𝘯𝘦𝘭!</b>"
                         )
 
                         file_name = f"video_{idx}_{random.randint(1000,9999)}.mp4"
@@ -191,8 +191,8 @@ async def auto_post():
                         thumb_file = thumb_path if thumb_ok else None
 
                         buttons = InlineKeyboardMarkup([
-                            [InlineKeyboardButton("🎥 Watch online 🎥", url=video_url)],
-                            [InlineKeyboardButton("🎀 Join Our Channel 🎀", url="https://t.me/offltbw")]
+                            [InlineKeyboardButton("🎥 Wᴀᴛᴄʜ Oɴʟɪɴᴇ 🎥", url=video_url)],
+                            [InlineKeyboardButton("🎀 Uɴꜱᴇᴇɴ Cᴏʟʟᴇᴄᴛɪᴏɴ 🎀", url="https://t.me/offltbw")]
                         ])
 
                         try:
