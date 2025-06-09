@@ -37,10 +37,10 @@ def get_random_headers():
         "Cache-Control": "no-cache"
     }
 
-API_ID = int(os.environ.get("API_ID", 1401388))
-API_HASH = os.environ.get("API_HASH", "089a340f2fd06aea683cbfb73pp")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8022294985:AAEjHUJ2NHp1WPEcWcQEoeAXz3p7IE9TbFc")
-CHANNEL_ID = -1002699890857
+API_ID = int(os.environ.get("API_ID", 21003880))
+API_HASH = os.environ.get("API_HASH", "bf157632e77ea8b28ff3e186dc95ab35")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8156784176:AAFu4Yr_t2zu2cFGunPxFyyQIKRQ4hTFmwo")
+CHANNEL_ID = -1002569442302
 # Hey man your ☝️ channel ID direct add here
 
 
@@ -64,7 +64,7 @@ def home():
     return '✅ Bot is running!'
 
 def run_flask():
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 3000)))
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
 
 API_LIST = [
     "https://you-pom-lover.vercel.app/xvideos/10/Bangladeshi",
@@ -172,7 +172,7 @@ async def auto_post():
                         caption = (
                             f"🔥 <b>{video_name}</b>\n"
                             f"✦▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬✦\n"
-                            f"😮 {item.get('description', 'No description available.')}\n\n"
+                            f"🐉 {item.get('description', 'No description available.')}\n\n"
                             f"<b>⚡️ Stay tuned for more videos on our channel!</b>"
                         )
 
@@ -190,7 +190,7 @@ async def auto_post():
 
                         buttons = InlineKeyboardMarkup([
                             [InlineKeyboardButton("📽️ Watch online", url=video_url)],
-                            [InlineKeyboardButton("📺 Join Our Channel", url="https://t.me/Opleech_WD")]
+                            [InlineKeyboardButton("🎀 Join Our Channel 🎀", url="https://t.me/offltbw")]
                         ])
 
                         try:
