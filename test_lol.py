@@ -36,10 +36,10 @@ def get_random_headers():
         "Cache-Control": "no-cache"
     }
 
-API_ID = int(os.environ.get("API_ID", 1401388))
-API_HASH = os.environ.get("API_HASH", "089a340f2fd06aea683cbfb73pp")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN")
-CHANNEL_ID = -1002699890857
+API_ID = int(os.environ.get("API_ID", 21003880))
+API_HASH = os.environ.get("API_HASH", "bf157632e77ea8b28ff3e186dc95ab35")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8156784176:AAFu4Yr_t2zu2cFGunPxFyyQIKRQ4hTFmwo")
+CHANNEL_ID = -1002569442302
 
 BLACKLIST_FILE = "blacklist.txt"
 
@@ -152,9 +152,9 @@ async def auto_post():
                             continue
 
                         caption = (
-                            f"🔥 <b>{video_name}</b>\n"
+                            f"🎀 <b>{video_name}</b>\n"
                             f"✦▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬✦\n"
-                            f"😮 {item.get('description', 'No description available.')}\n\n"
+                            f"🐉 {item.get('description', 'No description available.')}\n\n"
                             f"<b>⚡️ Stay tuned for more videos on our channel!</b>"
                         )
                         file_name = f"video_{idx}_{random.randint(1000,9999)}.mp4"
@@ -168,8 +168,8 @@ async def auto_post():
                         thumb_file = thumb_path if thumb_ok else None
 
                         buttons = InlineKeyboardMarkup([
-                            [InlineKeyboardButton("📽️ Watch online", url=video_url)],
-                            [InlineKeyboardButton("📺 Join Our Channel", url="https://t.me/Opleech_WD")]
+                            [InlineKeyboardButton("🎥 Watch Online 🎥", url=video_url)],
+                            [InlineKeyboardButton("🎀 Join Our Channel 🎀", url="https://t.me/Opleech_WD")]
                         ])
 
                         try:
