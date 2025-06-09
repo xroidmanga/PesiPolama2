@@ -30,10 +30,10 @@ def get_random_headers():
     }
 
 # Env vars
-api_id = int(os.environ.get("API_ID", 6701300))
-api_hash = os.environ.get("API_HASH", "006089a340f2806aea683cbfb73kkk")
-bot_token = os.environ.get("BOT_TOKEN", "7722294985:AAG5SAi7xqWW_q7Il2oh-zdCZs")
-channel_id = os.environ.get("CHANNEL_ID", "-10080358474000")
+api_id = int(os.environ.get("API_ID", 21003880))
+api_hash = os.environ.get("API_HASH", "bf157632e77ea8b28ff3e186dc95ab35")
+bot_token = os.environ.get("BOT_TOKEN", "8156784176:AAFu4Yr_t2zu2cFGunPxFyyQIKRQ4hTFmwo")
+channel_id = os.environ.get("CHANNEL_ID", "-1002569442302")
 
 try:
     channel_id = int(channel_id)
@@ -103,8 +103,8 @@ async def auto_post():
                 if not thumbnail.endswith(('.jpg', '.jpeg', '.png', '.webp')):
                     thumbnail = "https://placehold.co/600x400?text=Image+Unavailable"
 
-                caption = f"🔥 {item['name']}\n\n{item.get('description', 'No description')}"
-                buttons = InlineKeyboardMarkup([[InlineKeyboardButton("📽️ ভিডিও দেখুন", url=item['content_url'])]])
+                caption = f"🎀 {item['name']}\n\n{item.get('description', 'No description')}"
+                buttons = InlineKeyboardMarkup([[InlineKeyboardButton("📽️ Watch Online", url=item['content_url'])]])
 
                 try:
                     await bot.send_photo(
