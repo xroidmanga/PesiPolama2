@@ -21,7 +21,7 @@ RUN pip install --no-cache-dir --upgrade pip && \
 COPY . .
 
 # Expose Flask port
-EXPOSE 3000
+EXPOSE 8080
 
 # Run the application 
 
