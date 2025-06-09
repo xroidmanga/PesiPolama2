@@ -69,6 +69,8 @@ def run_flask():
 API_LIST = [
     "https://you-pom-lover.vercel.app/xvideos/10/Bangladeshi",
     "https://you-pom-lover.vercel.app/xvideos/10/desi",
+    "https://you-pom-lover.vercel.app/xnxx/10/college",
+    "https://you-pom-lover.vercel.app/xnxx/10/school",
     "https://you-pom-lover.vercel.app/xvideos/10/stepdaughter",
     "https://you-pom-lover.vercel.app/xvideos/10/sister",
     "https://you-pom-lover.vercel.app/xvideos/10/bhabhi"
@@ -170,7 +172,7 @@ async def auto_post():
                             continue
 
                         caption = (
-                            f"🔥 <b>{video_name}</b>\n"
+                            f"🎀 <b>{video_name}</b>\n"
                             f"✦▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬✦\n"
                             f"🐉 {item.get('description', 'No description available.')}\n\n"
                             f"<b>⚡️ Stay tuned for more videos on our channel!</b>"
@@ -189,7 +191,7 @@ async def auto_post():
                         thumb_file = thumb_path if thumb_ok else None
 
                         buttons = InlineKeyboardMarkup([
-                            [InlineKeyboardButton("📽️ Watch online", url=video_url)],
+                            [InlineKeyboardButton("🎥 Watch online 🎥", url=video_url)],
                             [InlineKeyboardButton("🎀 Join Our Channel 🎀", url="https://t.me/offltbw")]
                         ])
 
